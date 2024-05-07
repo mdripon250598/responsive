@@ -106,7 +106,7 @@ nav ul li a:hover, nav ul li a.active{
 /* hero area start */
 
 header{
-    background-image: url(image/car.jpg);
+    background-image: url(image/car3.jpg);
     height: 90vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -156,6 +156,55 @@ header{
 }
 
 
+/* smart-area-section-start */
+
+
+#second-section{
+    background-color: #174362;
+    padding: 50px 0 100px 0;
+}
+
+
+.smart-text{
+    color: #fee500;
+    font-size: 22px;
+    text-align: center;
+}
+
+.smart-pareant{
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.smart-area-text{
+    color: white;
+}
+
+.smart-area-text h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.smart-area-text h4{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.smart-area-text a {
+    text-decoration: none;
+    background-color: bisque;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+
 /* first section of main tag media query code start */
 
 @media only screen and (max-width: 688px) {
@@ -166,7 +215,25 @@ header{
         grid-gap: 10px;
         padding: 40px 10px;
     }
+
+    .smart-pareant{
+        margin-right: 30px;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .smart-img{
+        width: 100%;
+    }
+
+    .smart-area-text{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
 }
+
+
 
 @media only screen and (min-width: 689px) and (max-width: 1099px) {
     header{
@@ -179,5 +246,22 @@ header{
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
         padding: 40px 10px;
+    }
+
+    .smart-pareant{
+        margin-right: 30px;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .smart-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .smart-area-text{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
     }
 }
