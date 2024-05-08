@@ -225,10 +225,11 @@ header{
 
 .more-about-vanilla{
     background-color: #00000059;
+    width: 100%;
 }
 
 .more-about-vanilla h4{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -250,6 +251,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px;
+    width: 100%;
 
 }
 
@@ -266,6 +268,85 @@ header{
     font-size: 20px;
     padding: 5px 0 10px 0;
 }
+
+
+/* programmer's tips */
+
+#fourth-section{
+    background-color: #154360;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.advice-parent{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.advice-img-box img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.single-advice p{
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.single-advice h3{
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+
+.single-advice h4{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.single-advice a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.5s;
+    border: 1px solid black;
+
+}
+
+.advice-icon{
+    text-align: center;
+    
+}
+
+.advice-icon a{
+    margin: 0 5px;
+}
+
+.single-advice a:hover{
+    background-color: wheat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* first section of main tag media query code start */
 
@@ -293,18 +374,31 @@ header{
         margin-top: 20px;
     }
 
+    /* about-single-items-parent-start */
+
     #about-single-items-parent{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 5px;
     
     }
-
     #about-parent{
+        margin-left: 30px;
+        margin-right: 30px;
         align-items: center;
         display: block;
-        gap: 10px;
+        color: #fff;
     }
+
+    /* programmer's tips start */
+
+    .advice-parent{
+        margin-left: 30px;
+        margin-right: 30px;
+        display: block;
+    }
+
+    
     
 }
 
@@ -339,6 +433,9 @@ header{
         margin-top: 20px;
         text-align: center;
     }
+
+     /* about-single-items-parent-start */
+
     #about-parent{
         margin-left: 10px;
         margin-right: 10px;
@@ -347,5 +444,15 @@ header{
     .about-single-items h4{
         font-size: 12px;
     }
+
+    /* programmer's tips start */
+
+    
+    .advice-parent{
+        margin-left: 70px;
+        margin-right: 70px;
+        display: flex;
+    }
+    
 
 }
