@@ -62,7 +62,7 @@ nav ul li a:hover, nav ul li a.active{
 
 /* responsive work start */
 
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 688px) {
     .menu-btn{
         display: block;
     }
@@ -178,6 +178,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.smart-img{
+    width: 100%;
+    background-size: cover;
+}
+
 .smart-area-text{
     color: white;
 }
@@ -409,7 +414,50 @@ form p{
     background-color: #16312e;
 }
 
+/* sixth section code stard */
 
+#sixth-section{
+    background-color: #07254F;
+    color: white;
+    padding: 100px 0;
+}
+
+#match-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+    grid-gap: 45px;
+}
+
+.frist-single-match{
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+.SINGLE-MATCH{
+    border: 4px solid #26528f;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.SINGLE-MATCH:hover{
+    border: 4px solid #fff;
+}
+.SINGLE-MATCH i{
+    font-size: 40px;
+    padding: 0 20px 10px 20px;
+}
+
+.SINGLE-MATCH h5{
+    margin-bottom: 10px;
+}
+
+.SINGLE-MATCH p{
+    color: #6d809c;
+    font-size: 14px;
+
+}
 
 
 
@@ -425,6 +473,7 @@ form p{
 /* first section of main tag media query code start */
 
 @media only screen and (max-width: 688px) {
+
     .service-parent{
         width: 100%;
         display: grid;
@@ -437,10 +486,6 @@ form p{
         margin-right: 30px;
         margin-left: 30px;
         display: block;
-    }
-
-    .smart-img{
-        width: 100%;
     }
 
     .smart-area-text{
@@ -487,7 +532,20 @@ form p{
     
     }
 
+    /* sixth section code stard */
+
+    #match-parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+        margin-right: 30px;
+        grid-gap: 25px;
+    }
+
     
+    .frist-single-match{
+        text-align: center;
+    }
     
 }
 
@@ -557,5 +615,14 @@ form p{
     
     }
 
+    /* sixth section code stard */
+
+    #match-parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 30px;
+        margin-right: 30px;
+        grid-gap: 25px;
+    }
 
 }
