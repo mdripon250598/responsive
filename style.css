@@ -203,7 +203,69 @@ header{
     margin-top: 40px;
 }
 
+/* 3rd section code start */
 
+#therd-section{
+    background-image: url(image/car5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+#about-parent{
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.more-about-vanilla{
+    background-color: #00000059;
+}
+
+.more-about-vanilla h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.more-about-vanilla ul{
+    margin: 20px 20px;
+}
+
+.more-about-vanilla a{
+    text-decoration: none;
+    font-size: 18px;
+    background-color: yellow;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#about-single-items-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+
+}
+
+.about-single-items{
+    background-color: #ffffffc8;
+    box-shadow: 0px 0px 15px #22ff0091;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    color: black;
+}
+
+.about-single-items h4{
+    font-size: 20px;
+    padding: 5px 0 10px 0;
+}
 
 /* first section of main tag media query code start */
 
@@ -229,6 +291,19 @@ header{
     .smart-area-text{
         width: 100%;
         margin-top: 20px;
+    }
+
+    #about-single-items-parent{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+    
+    }
+
+    #about-parent{
+        align-items: center;
+        display: block;
+        gap: 10px;
     }
     
 }
@@ -264,4 +339,13 @@ header{
         margin-top: 20px;
         text-align: center;
     }
+    #about-parent{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .about-single-items h4{
+        font-size: 12px;
+    }
+
 }
