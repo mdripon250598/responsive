@@ -459,6 +459,41 @@ form p{
 
 }
 
+/* seventh-section-code-start */
+
+#seventh-section{
+    padding: 100px 0;
+}
+
+#takecare-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+}
+
+.takecare-text h3{
+    font-size: 30px;
+}
+
+.takecare-text p{
+    margin: 20px 0;
+}
+
+.takecare-text ul li{
+    list-style-position: inside;
+    margin: 10px 0;
+}
+
+.takecare-image{
+    width: 100%;
+}
+
+.takecare-image img{
+    width: 100%;
+}
 
 
 
@@ -546,8 +581,23 @@ form p{
     .frist-single-match{
         text-align: center;
     }
+
+    /* seventh-section-code-start */
+
+    #takecare-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .takecare-text{
+        margin-bottom: 70px;
+    }
     
 }
+
+
+
+
 
 
 
@@ -623,6 +673,17 @@ form p{
         margin-left: 30px;
         margin-right: 30px;
         grid-gap: 25px;
+    }
+
+    /* seventh-section-code-start */
+
+    #takecare-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .takecare-text{
+        margin-bottom: 100px;
     }
 
 }
